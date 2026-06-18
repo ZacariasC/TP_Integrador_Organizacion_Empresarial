@@ -1,5 +1,5 @@
 # Simulador de chatbot para solicitud de vacaciones
-# Empresa: taller y venta de artículos para motos
+# Empresa: La Chispa Motos - taller y venta de artículos para motos
 
 empleados = [
     {"legajo": 1001, "nombre": "Zacarias Cabral", "cargo": "Mecánico", "dias": 30},
@@ -52,7 +52,7 @@ def procesar_solicitud(empleado, dias_solicitados):
 
 def iniciar_chatbot():
     print("Bot: Bienvenido al sistema de solicitud de vacaciones.")
-    print("Bot: Este sistema pertenece a la empresa de taller y venta de artículos para motos.")
+    print("Bot: Este sistema pertenece a la empresa LA CHISPA MOTOS taller y venta de artículos.")
 
     legajo = pedir_legajo()
     empleado = buscar_empleado(legajo)
